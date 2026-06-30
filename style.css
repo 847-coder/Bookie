@@ -101,10 +101,10 @@ nav {
 nav a {
     padding-top: 16px;
     border-top: 2px solid transparent;
+    color: inherit;
 }
 
-nav a:hover,
-.nav-active {
+nav a:hover {
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
 }
@@ -407,22 +407,19 @@ footer a {
     }
 
     nav a {
-        width: 50%;
-        text-align: center;
-        padding-bottom: 15px;
-        border-top: none;
-        border-bottom: 2px solid var(--main-bg-color);
-    }
+    width: 50%;
+    text-align: center;
+    padding-bottom: 15px;
+    border-top: none;
+    border-bottom: 2px solid var(--main-bg-color);
+    color: inherit;
+}
 
-    nav a:hover,
-    .nav-active {
-        border-top: none;
-        border-bottom: 2px solid var(--main-color);
-    }
-
-    .search-section {
-        padding: 0 20px;
-    }
+nav a:hover {
+    color: var(--main-color);
+    border-top: none;
+    border-bottom: 2px solid var(--main-color);
+}
 
     .search-bar input {
         width: 100%;
